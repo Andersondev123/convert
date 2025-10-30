@@ -1,6 +1,8 @@
 # 💱 Convert
 
-![Preview do projeto](.github/preview.jpg?raw=true)
+<p align="center">
+  <img src=".github/preview.jpg" alt="Preview do projeto" width="800">
+</p>
 
 O **Convert** é um conversor de moedas simples, desenvolvido com **HTML, CSS e JavaScript**, criado com o objetivo de praticar conceitos fundamentais da programação e da manipulação do DOM.
 
