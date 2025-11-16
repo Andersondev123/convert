@@ -1,8 +1,6 @@
-
 const USD = 4.87
 const EUR = 5.32
 const GBP = 6.08
-
 
 const form = document.querySelector("form")
 const amount = document.getElementById("amount")
@@ -11,12 +9,10 @@ const footer = document.querySelector("main footer")
 const description = document.getElementById("description")
 const result = document.getElementById("result")
 
-
 amount.addEventListener("input", ()=>{
-    const hasCaractersRegex = /\D+/g
+    const hasCaractersRegex = /\D/g
     amount.value = amount.value.replace(hasCaractersRegex, "")
 })
-
 
 form.onsubmit = (event)=>{
     event.preventDefault()
@@ -53,7 +49,6 @@ function convertCurrency(amount, price, symbol){
         alert("Não foi possível coverter. Tente novamente mais tarde")
     }
 }
-
 
 function formatCurrencyBRL(value){
     return  Number(value).toLocaleString("pt-BR", {

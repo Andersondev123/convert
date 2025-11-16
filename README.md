@@ -33,15 +33,15 @@ Mesmo sendo um projeto básico, serviu pra reforçar conceitos e perceber o quan
 
 ## 🚀 Como rodar o projeto
 
-1. Faça o clone do repositório:
+ ### Faça o clone do repositório:
    ```bash
    git clone https://github.com/Andersondev123/convert.git
-
-2. Acesse a pasta do projeto:
-
+  ```
+ ### Acesse a pasta do projeto:
+```bash
 cd convert
+```
 
-
-3. Abra o arquivo index.html diretamente no navegador.
+### Abra o arquivo index.html diretamente no navegador.
 
 Pronto! 🎉
