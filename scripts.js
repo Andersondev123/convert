@@ -10,7 +10,7 @@ const description = document.getElementById("description")
 const result = document.getElementById("result")
 
 amount.addEventListener("input", ()=>{
-    const hasCaractersRegex = /\D/g
+    const hasCaractersRegex = /\D,/g
     amount.value = amount.value.replace(hasCaractersRegex, "")
 })
 
